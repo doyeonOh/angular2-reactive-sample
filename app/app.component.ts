@@ -5,9 +5,9 @@ import { RxjsComponent } from './components/rxjs.component';
 @Component({
   selector: 'my-app',
   template: `
-    <h1>angular2-reactive-sample</h1>
-    Thanks
-    <my-rxjs></my-rxjs>
+    <div class="container">
+      <my-rxjs></my-rxjs>
+    </div>
   `,
   directives: [
     RxjsComponent
